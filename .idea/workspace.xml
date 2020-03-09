@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b041501e-a2e3-42b8-8ae6-09d1946015e5" name="Default Changelist" comment="" />
+    <list default="true" id="b041501e-a2e3-42b8-8ae6-09d1946015e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyCache.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +22,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/p2partb" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YuV1iroJVRGW87SzbH7sjc9LE2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,9 +35,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="ProxyCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -56,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583792252539</updated>
       <workItem from="1583792253908" duration="821000" />
+      <workItem from="1583794279813" duration="2861000" />
     </task>
     <servers />
   </component>
@@ -71,5 +87,17 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="547" y="242" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.23.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1583792553436" />
+    <state x="876" y="448" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583794308443">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="876" y="448" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583794308443" />
+    <state x="535" y="201" key="SettingsEditor" timestamp="1583795056823">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="535" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1583795056823" />
+    <state x="733" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1583794285055">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="733" y="383" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583794285055" />
   </component>
 </project>
