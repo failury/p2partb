@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b041501e-a2e3-42b8-8ae6-09d1946015e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -44,12 +41,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="ProxyCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProxyCache" />
       <module name="p2partb" />
+      <option name="PROGRAM_PARAMETERS" value="1226" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583792252539</updated>
       <workItem from="1583792253908" duration="821000" />
-      <workItem from="1583794279813" duration="2861000" />
+      <workItem from="1583794279813" duration="3944000" />
     </task>
     <servers />
   </component>
@@ -83,18 +81,35 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="421" y="229" key="#Project_Structure/-1280.23.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1583792284173" />
-    <state x="547" y="242" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583792553436">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="583" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583799082640">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="547" y="242" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.23.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1583792553436" />
+    <state x="583" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583799082640" />
     <state x="876" y="448" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583794308443">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="876" y="448" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583794308443" />
-    <state x="535" y="201" key="SettingsEditor" timestamp="1583795056823">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1583799197966">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="535" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1583795056823" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583799197966" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1583799197965">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583799197965" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1583799197965">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583799197965" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1583799197965">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583799197965" />
+    <state x="535" y="201" key="SettingsEditor" timestamp="1583798400726">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="535" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1583798400726" />
     <state x="733" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1583794285055">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
