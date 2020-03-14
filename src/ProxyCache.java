@@ -46,10 +46,9 @@ public class ProxyCache {
         /* Send request to server */
         try {
             /* Open socket and write request to socket */
-            server = new Socket(request.getHost(),request.getPort());
-            DataOutputStream toServer =new DataOutputStream(server.getOutputStream());
-            /* Fill in */
-            toServer.write(request.toString().getBytes());
+            server = new Socket(request.getHost(), request.getPort());
+            DataOutputStream toServer = new DataOutputStream(server.getOutputStream());
+            toServer.writeBytes(request.toString());
         } catch (UnknownHostException e) {
             System.out.println("Unknown host: " + request.getHost());
             System.out.println(e);
@@ -99,7 +98,7 @@ public class ProxyCache {
 
         while (true) {
             try {
-                client =socket.accept();
+                client = socket.accept();
                 handle(client);
             } catch (IOException e) {
                 System.out.println("Error reading request from client: " + e);

@@ -32,8 +32,7 @@ public class HttpResponse {
 
         /* First read status line and response headers */
         try {
-            BufferedReader temp = new BufferedReader(new InputStreamReader(fromServer));
-            String line = temp.readLine();
+            String line = fromServer.readLine();
             while (line.length() != 0) {
                 if (!gotStatusLine) {
                     statusLine = line;
@@ -48,7 +47,7 @@ public class HttpResponse {
                  * header "Content-Length", others return
                  * "Content-length". You need to check for both
                  * here. */
-                if (line.startsWith("Content-Length") ||
+                if (line.startsWith("HTTP/1.1") ||
                         line.startsWith("Content-length")) {
                     String[] tmp = line.split(" ");
                     length = Integer.parseInt(tmp[1]);
@@ -79,7 +78,7 @@ public class HttpResponse {
              * response. */
             while (bytesRead < length || loop) {
                 /* Read it in as binary data */
-                int res = fromServer.read(buf);
+                int res = fromServer.read(buf, 0, BUF_SIZE);
                 if (res == -1) {
                     break;
                 }
@@ -88,7 +87,7 @@ public class HttpResponse {
                 for (int i = 0;
                      i < res && (i + bytesRead) < MAX_OBJECT_SIZE;
                      i++) {
-                    body[i] = buf[i];
+                     body[bytesRead+i] = buf[i];
                 }
                 bytesRead += res;
             }
